@@ -128,7 +128,7 @@ if __name__ == '__main__':
             interactions.append((user, event, 1))
 
     # Train recommender
-    rec = EventRecommender()
+    rec = BeaconAI()
     rec.fit_data(users, events, user_features, event_features, interactions)
     rec.train_model()
 
