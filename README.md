@@ -48,5 +48,6 @@ For a sample user, the system displays:
    pip install lightfm numpy
 
 ## Running the Script 
+```bash
 python beacon_ai.py
 
